@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pcie2usbc")(type "KiCad")(uri "$(KIPRJMOD)/pcie2usbc.pretty")(options "")(descr ""))
+)
