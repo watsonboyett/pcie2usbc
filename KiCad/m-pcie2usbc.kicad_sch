@@ -292,6 +292,10 @@
           (name "NC1" (effects (font (size 1.27 1.27))))
           (number "67" (effects (font (size 1.27 1.27))))
         )
+        (pin no_connect line (at 25.4 -39.37 180) (length 2.54)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "68" (effects (font (size 1.27 1.27))))
+        )
         (pin output line (at -24.13 -43.18 0) (length 2.54)
           (name "PEDET" (effects (font (size 1.27 1.27))))
           (number "69" (effects (font (size 1.27 1.27))))
@@ -340,6 +344,10 @@
         (pin power_in line (at -24.13 48.26 0) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 1.27 -55.88 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "MOUNTING-HOLE" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1498,8 +1506,8 @@
     (property "Datasheet" "~" (at 107.315 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c122571-1da1-453f-99eb-34e6aa900276))
-    (pin "2" (uuid 04e5dd83-0474-4bac-a241-41a44effb9ea))
+    (pin "1" (uuid d286c893-bc57-4ee3-b9e5-c9822bde16ea))
+    (pin "2" (uuid 4a2c146f-6d21-421b-bb3d-35928f5d6fe4))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1524,7 +1532,7 @@
     (property "Datasheet" "~" (at 223.52 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 96a887ae-29e5-4b0b-a218-a58b8d3304b9))
+    (pin "1" (uuid 30a296d0-0cfd-4165-ae92-e586d21edcae))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1549,7 +1557,7 @@
     (property "Datasheet" "" (at 93.98 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06adc1e1-fbcb-4ac3-ad4c-a7b8fe368226))
+    (pin "1" (uuid 47fe4a98-8606-4bb9-8e6c-b52f9604c700))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1579,7 +1587,7 @@
     (property "Datasheet" "" (at 223.52 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53a22a81-1019-4ba0-acb5-6c2bd265b1be))
+    (pin "1" (uuid 3efcf620-12b4-48d5-bf8a-bc94abdd492f))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1609,73 +1617,75 @@
     (property "Datasheet" "" (at 64.77 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fb46ae3e-a549-418b-b069-7e825e929c74))
-    (pin "10" (uuid 9b4f37d2-17ba-4e83-99e7-a5a86f365601))
-    (pin "11" (uuid 852b8141-c952-4669-9a64-633e507b4974))
-    (pin "12" (uuid 089053e7-58df-477c-aea7-0ba567e11514))
-    (pin "13" (uuid 03c07943-fedd-4121-aedf-ab4624fc3821))
-    (pin "14" (uuid 2fe1b531-8989-46af-ac70-2d58434f28b7))
-    (pin "15" (uuid dc4b1f72-c4df-4c32-ba41-56e3f6a320b0))
-    (pin "16" (uuid 0f41d9b1-9c14-481d-96de-e6a49e28c7e1))
-    (pin "17" (uuid dfd130ed-7cba-4fb4-be56-a45f92af345c))
-    (pin "18" (uuid 76377d9a-2008-4e54-aa03-f3f67fcb7e74))
-    (pin "19" (uuid cbf0c86b-7c8b-4a2b-8d19-73b528eefff7))
-    (pin "2" (uuid c7e59a24-507e-4837-95fe-810980e2ec29))
-    (pin "20" (uuid 3b1e447a-40ff-4b27-ab05-29a6bff82f9b))
-    (pin "21" (uuid 4d9adb78-3599-4fb1-8dfb-999f6d18c051))
-    (pin "22" (uuid 44e1d28e-6d61-4ace-8faa-6cfe1850eab7))
-    (pin "23" (uuid 43b0172c-a435-4338-ae5f-50f16900d9dd))
-    (pin "24" (uuid f28e47f4-5514-4594-9730-b3644eabcc09))
-    (pin "25" (uuid e7f4de3b-3a38-4a3c-8b69-65bd8a12ea7e))
-    (pin "26" (uuid 4dac3edd-c977-44da-aaa1-ea5ad0dc0a39))
-    (pin "27" (uuid dffe6f7a-5aea-49b4-8f0f-c84c355b1a7e))
-    (pin "28" (uuid 197f3e27-3e07-46d5-854a-d7f617b840df))
-    (pin "29" (uuid 02b2388d-bfb5-413c-8d4a-9cc733b3d0c9))
-    (pin "3" (uuid b5627335-b8e7-4afd-b3bc-45691acfff86))
-    (pin "30" (uuid 42da5750-d280-499b-8803-0b87b400d50c))
-    (pin "31" (uuid 47747022-97b2-47ca-bf83-3d346ce7a5b5))
-    (pin "32" (uuid f4b4e700-c9e6-4f57-9f39-9b3a2f0b8c40))
-    (pin "33" (uuid acd3f840-4c8a-45bd-b8d2-ad8d8994c56d))
-    (pin "34" (uuid f6c4fba8-c772-431d-926f-5f9026370ddf))
-    (pin "35" (uuid 3c43be08-c65b-462a-bf89-f7a6c2817575))
-    (pin "36" (uuid b2c05d38-784f-4268-958e-306954d771cd))
-    (pin "37" (uuid 6dc3c98b-25d8-4cbe-8eea-e66af36d6f47))
-    (pin "38" (uuid fe391165-9042-4c52-a206-bd05ccad9a78))
-    (pin "39" (uuid 1c49a6a9-d3c0-48ba-b917-0dd97581fc16))
-    (pin "4" (uuid a6e5e466-a027-4368-9cae-379863e9934f))
-    (pin "40" (uuid e4c37d0b-c8b6-4f25-a802-a01ac766d309))
-    (pin "41" (uuid 2c58beb3-1e33-493e-b5f0-7d4369d0c395))
-    (pin "42" (uuid 1f729032-a6b7-4ae8-bae0-121390eef161))
-    (pin "43" (uuid d06d7476-2468-4fac-b314-25b7619e043f))
-    (pin "44" (uuid 70bd3beb-86bf-4c09-8641-6b07eca16c70))
-    (pin "45" (uuid 4ca58c1e-237b-4dff-a4cb-7ae33bf6cb65))
-    (pin "46" (uuid a144c618-ee57-4c89-94e6-d71a514f3e28))
-    (pin "47" (uuid 50b91efa-f76d-4a81-b9d9-a77274f3c8c4))
-    (pin "48" (uuid 14f750a7-0b73-4baa-9952-704953b36161))
-    (pin "49" (uuid 2017d2fe-0ba5-4c9f-b251-a8481b72378c))
-    (pin "5" (uuid 2f94919f-246b-4127-aa8a-73b12d4735af))
-    (pin "50" (uuid b4cdc6d9-b1ff-4891-9988-937785ba3251))
-    (pin "51" (uuid eba2a415-3845-4e01-8eb3-179cfd272270))
-    (pin "52" (uuid 8836a8d3-633d-4723-918e-137defa7a587))
-    (pin "53" (uuid 5b52bdb8-d22c-4e5f-a046-b21e35d88502))
-    (pin "54" (uuid 4b886c82-ff6e-4570-9027-61d8fdee9f27))
-    (pin "55" (uuid f5ac27d5-7513-4757-ba11-4ca7c6cb9faa))
-    (pin "56" (uuid 9075a8b2-2568-4e12-afe9-243085d4a3af))
-    (pin "57" (uuid 88006322-b87c-4f9a-8157-59659d56412a))
-    (pin "58" (uuid 3c8b7936-218d-424c-a663-d9b46f9305b9))
-    (pin "6" (uuid c3d1cda7-bcc2-4459-bf3e-2476644abc40))
-    (pin "67" (uuid 25839c80-148b-4899-a617-42d71ea93499))
-    (pin "69" (uuid a5181c99-8a53-47b9-b9e3-3f882124aab2))
-    (pin "7" (uuid 0a63a34d-ac19-4bdc-95d1-6beb9b72a36d))
-    (pin "70" (uuid 3fa9697e-933d-4ba3-84e9-b9646bfe9edf))
-    (pin "71" (uuid 31a23670-577c-4811-a07b-0d6b031c18cb))
-    (pin "72" (uuid 9eb59cac-3eb8-4b66-a305-c98167d21310))
-    (pin "73" (uuid 7b87a873-046d-419a-8d38-e2a3bbc7e460))
-    (pin "74" (uuid 1f3a5bb8-5d0f-4eb1-956a-39aa1970fc8b))
-    (pin "75" (uuid 10b2c897-a9b7-4aee-a977-5bef56e260b4))
-    (pin "8" (uuid 91514fbc-60e9-4285-94dc-e69140c057a9))
-    (pin "9" (uuid 7b6ea2dc-a3cc-4cf8-af98-238109a44a4c))
-    (pin "1" (uuid 7de5e4c9-3279-4d4f-91e1-ebc8ab30010f))
+    (pin "" (uuid 54520584-9517-4af4-8415-e56ff2d4188b))
+    (pin "10" (uuid 8eb0f74c-aa34-4817-856e-810446187d5e))
+    (pin "11" (uuid baf4d04c-63e9-4306-9948-2429eafc5821))
+    (pin "12" (uuid 93efaea7-ffc5-4632-8368-13a9c6a1905b))
+    (pin "13" (uuid f2101350-dc31-4925-a9cb-7b46cc20f185))
+    (pin "14" (uuid 762d9781-6f01-46a2-b661-bfe32c689d8a))
+    (pin "15" (uuid a21656b7-ceba-4889-9919-4cbaf9ffb0e8))
+    (pin "16" (uuid b0ab0ba8-8640-4665-be92-cdb4b9685151))
+    (pin "17" (uuid 2014654a-fe2c-48c2-906b-2089a3c155f3))
+    (pin "18" (uuid ff0a4f89-bb0c-48f2-8e99-2d64fde58c24))
+    (pin "19" (uuid 18f95fbc-4683-4045-8fcf-9ff232cc5f75))
+    (pin "2" (uuid 018f19f4-f3e2-4fa8-8f88-8d56250fc4c0))
+    (pin "20" (uuid f112ddb3-5749-4bc6-90f2-caa1cd1dbec1))
+    (pin "21" (uuid 2d44e10b-3cc7-40ff-840c-d938c67910f0))
+    (pin "22" (uuid efa9907e-7277-48de-8c12-5f416d791948))
+    (pin "23" (uuid 4e0f042d-b826-4ca1-a0e8-bb09605cfb6d))
+    (pin "24" (uuid af658871-4585-4236-87c0-d2674bc19015))
+    (pin "25" (uuid 2f4f7b5a-d6d1-4439-9e07-64ecbe67488b))
+    (pin "26" (uuid 8d0234d3-7512-485d-a9af-aca37886a7b9))
+    (pin "27" (uuid 7dcc4b97-4b0e-4759-9ff6-901502f271b2))
+    (pin "28" (uuid 7ebb73f9-1ee9-451e-b813-f31121b8de97))
+    (pin "29" (uuid 29c29669-0a3d-42ab-ac0e-9f39dc46922a))
+    (pin "3" (uuid 86282432-ebe4-466b-a378-c7f2031dc0c5))
+    (pin "30" (uuid 5dfd2cbb-56d7-439d-923c-7ba316607982))
+    (pin "31" (uuid 243cc8fa-7a51-419b-8b91-a5af05cb196c))
+    (pin "32" (uuid db62d10b-019d-4edd-b0f4-e1aba29d5167))
+    (pin "33" (uuid 514a25d4-f5e4-4b37-8e9d-2a84b2d47323))
+    (pin "34" (uuid 4869f1fc-f56f-468c-a5e0-311a02535d3d))
+    (pin "35" (uuid 9ee28a2b-5ce5-4cea-83b4-c71399005739))
+    (pin "36" (uuid 471911f8-eb81-409e-92aa-144c512885c7))
+    (pin "37" (uuid 6a6bb872-058e-4115-927d-1697cf8d8381))
+    (pin "38" (uuid 85a1eeaf-d292-494d-a8ae-dfec96599c1c))
+    (pin "39" (uuid b213f1b2-64c1-431a-9454-af2fdc0574f0))
+    (pin "4" (uuid c540344a-e9d1-4d10-9111-c651060c0ce7))
+    (pin "40" (uuid 00a45237-db20-4e66-b778-0ec2de8f100a))
+    (pin "41" (uuid 30a715af-089e-48d6-960b-434967b24c9c))
+    (pin "42" (uuid e45153e2-5f98-42e8-b14d-2bdfe51daa7e))
+    (pin "43" (uuid ce50339a-7178-4eca-a0b8-46490c663b8c))
+    (pin "44" (uuid a38a4f50-72aa-40a6-a491-37b34b0fbc96))
+    (pin "45" (uuid 7e15e27f-566b-4352-b6aa-764c8820ce2c))
+    (pin "46" (uuid cdbf790b-2658-4752-a199-fa893f169315))
+    (pin "47" (uuid 97f7e2d2-3b29-4b27-9469-7ff861e50eed))
+    (pin "48" (uuid e2435a1f-d130-4f8b-977d-cfa048169145))
+    (pin "49" (uuid dd31d326-b483-4c2d-9889-65db411ef4d4))
+    (pin "5" (uuid a18e8982-81d4-437c-9302-9846689b525c))
+    (pin "50" (uuid e2459eda-6557-4e68-be97-032334ce8fb0))
+    (pin "51" (uuid e8e1adb9-7e33-452c-abc4-7df6daf0cd1f))
+    (pin "52" (uuid 2bcc88c5-728a-4b97-b162-e8b10c053bdf))
+    (pin "53" (uuid 76bd1109-890d-4d60-9416-49d35582c306))
+    (pin "54" (uuid c049b4e4-aba8-4d1e-8c2e-dd6b91128373))
+    (pin "55" (uuid 4a1e74a9-c3e1-474d-9795-1a2cf20a7f0c))
+    (pin "56" (uuid d669cba9-d0ce-4958-b7b3-16d633f7e2f7))
+    (pin "57" (uuid e3765c0c-c639-41c9-8935-9f2a291b2f85))
+    (pin "58" (uuid 8e2ed87b-245a-4157-bd8d-7f920888fec7))
+    (pin "6" (uuid 8dc954a8-e51d-4a7a-9da4-7ae380a0bf98))
+    (pin "67" (uuid dd139bb0-c20c-4148-bdab-c51f84b74454))
+    (pin "68" (uuid 61f4db4d-74c4-40ec-afae-be39916f6bd3))
+    (pin "69" (uuid 0f94c950-970d-4809-b135-35a7b56b5c76))
+    (pin "7" (uuid c7c6996c-c037-4175-af3b-1339f6aa4126))
+    (pin "70" (uuid cbd09c9f-2007-4662-ba21-6bd34f279bff))
+    (pin "71" (uuid 0ea27c69-98a4-40a4-ac2d-ea8c87380423))
+    (pin "72" (uuid 4d6ce0e9-a938-4f79-9462-63997b8c0f18))
+    (pin "73" (uuid 17ef1bdb-422a-428d-a9d4-fdad7a185218))
+    (pin "74" (uuid f596e535-84e5-45d0-934a-bd594da5e3a9))
+    (pin "75" (uuid 28b24bdb-b130-496d-93c0-608c344b2462))
+    (pin "8" (uuid 82c6cc51-7386-45d1-8062-bf2d0da346d5))
+    (pin "9" (uuid 394d6d98-284b-4484-8287-a2071b885be5))
+    (pin "1" (uuid 89e232c6-973b-45d3-9f36-d37685acf6db))
+    (pin "MOUNTING-HOLE" (uuid 888e78d5-f6cf-4850-9812-55b5f4771a67))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1700,7 +1710,7 @@
     (property "Datasheet" "" (at 156.845 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9473a02-a97f-45e9-9dcb-08439229bd62))
+    (pin "1" (uuid 3db4b00f-dafa-4852-8b6a-404985b06b86))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1730,8 +1740,8 @@
     (property "Datasheet" "~" (at 100.965 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a4364ef-46e0-461f-9990-590422dce1cd))
-    (pin "2" (uuid af4f7b49-2fda-4c5a-a6b1-4e71ca27559c))
+    (pin "1" (uuid 0d009c82-8485-43fa-9782-daac0fbdc09c))
+    (pin "2" (uuid 5d5bfbc5-192d-4b19-a80f-b27b8bbf07ed))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1756,7 +1766,7 @@
     (property "Datasheet" "" (at 108.585 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4931c83-0e6a-4e1d-ada9-47798e883ab2))
+    (pin "1" (uuid 29e5c1ab-fa2f-4c89-a035-19b719f09199))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1766,6 +1776,31 @@
       (project "pcie2usbc"
         (path "/e1766754-b9de-4cd8-9e76-5cd3a12f2f48"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 66.04 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 55bd8eee-19e6-4f55-8c22-1d690d3e6de6)
+    (property "Reference" "#PWR015" (at 66.04 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 66.04 177.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 66.04 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 66.04 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a13b49b-26bc-4fe3-89b6-cdb521218886))
+    (instances
+      (project "m-pcie2usbc"
+        (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1786,7 +1821,7 @@
     (property "Datasheet" "" (at 219.71 135.255 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0336fb58-4a0e-48b0-b7a3-d6a024cea555))
+    (pin "1" (uuid 3422495c-5346-48cc-87b0-97da4cea2c13))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1816,8 +1851,8 @@
     (property "Datasheet" "" (at 118.745 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eeff6daf-bac2-4e58-819f-833e69fec00c))
-    (pin "2" (uuid 45da1664-92ce-40f0-8c82-8d25eac8ce20))
+    (pin "1" (uuid 2fe35091-3d92-40c0-9f77-5b5667881e0e))
+    (pin "2" (uuid 7e46deff-b0cb-43a6-8c44-58b0a5e1cac7))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1847,7 +1882,7 @@
     (property "Datasheet" "" (at 109.22 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 294fe970-cf35-4d7b-8d20-6adfaa023358))
+    (pin "1" (uuid f0e8659e-496c-4fc5-9521-0987e7a1774a))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1877,7 +1912,7 @@
     (property "Datasheet" "" (at 114.935 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d06e5977-9177-41fe-8414-fb630bf39253))
+    (pin "1" (uuid bf2dbc8f-1307-4cc6-9478-2859a93a80a0))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1907,8 +1942,8 @@
     (property "Datasheet" "" (at 119.38 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 48b0443f-0c38-418a-a63d-5cd84403826e))
-    (pin "2" (uuid 26d90b33-12a0-432f-9a70-2e40b846ddfa))
+    (pin "1" (uuid dba36d65-e684-4c9e-aa35-8a6e3058cb6a))
+    (pin "2" (uuid 90a36cf6-1bc0-48f3-a3e6-97216463a22f))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1938,7 +1973,7 @@
     (property "Datasheet" "~" (at 156.845 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76cbbb9e-0176-4495-a0fe-3aa648b61337))
+    (pin "1" (uuid fa216061-1f6a-4495-ae2a-4c649346e7dd))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1963,8 +1998,8 @@
     (property "Datasheet" "~" (at 101.6 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa91b62a-339e-41bf-97ca-6ce87616ddfe))
-    (pin "2" (uuid ed47eaf7-f3eb-48f3-8c9b-3f2907849579))
+    (pin "1" (uuid 3f0cca7f-ac20-45dd-b9af-c9dca4ac7627))
+    (pin "2" (uuid 08cfd70e-1699-45aa-9f09-31d7e2d8a294))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -1989,7 +2024,7 @@
     (property "Datasheet" "" (at 153.035 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2510579e-29a1-4ac3-a1b4-c28a7bd82487))
+    (pin "1" (uuid 00f8988c-6f91-4186-b0a3-776b3342b744))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -2019,8 +2054,8 @@
     (property "Datasheet" "" (at 186.055 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a5dd5af-d817-46a4-bc2c-f7275542d0cd))
-    (pin "2" (uuid 0351879c-d62a-413f-b8ab-c3a2f57d0609))
+    (pin "1" (uuid 2c82dfc8-c73a-47e8-a301-912f90d54dff))
+    (pin "2" (uuid 8bcfdf26-0b70-44a0-b4bf-1899d84e7d91))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -2050,7 +2085,7 @@
     (property "Datasheet" "" (at 217.17 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 29a06fc8-8f62-46e5-a788-65d43b35a1d6))
+    (pin "1" (uuid ced51fe5-f2c9-439e-b391-7456e278244a))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -2080,7 +2115,7 @@
     (property "Datasheet" "" (at 34.925 180.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d96362d5-c00e-4a1c-9102-df4704072db5))
+    (pin "1" (uuid 7b15e7d9-ae14-4451-90a1-446ffe0a7b4a))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -2110,8 +2145,8 @@
     (property "Datasheet" "" (at 185.42 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5eafc65e-1912-48de-ac65-f6fb1eb72557))
-    (pin "2" (uuid 1dffeaef-b61b-4c7c-a4a6-9ac9f12b2d9c))
+    (pin "1" (uuid fd76441e-a070-447a-9e0a-af03e731af2a))
+    (pin "2" (uuid 966cb017-0eb2-4461-9d0c-4b5dfaf221d2))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -2141,7 +2176,7 @@
     (property "Datasheet" "" (at 150.495 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36d7dba4-c0e3-4692-8a9c-ebdfeefd5e13))
+    (pin "1" (uuid 25f1f923-b318-4ff1-8d1a-1346e33f061a))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"

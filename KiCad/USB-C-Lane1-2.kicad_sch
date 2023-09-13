@@ -637,64 +637,6 @@
         )
       )
     )
-    (symbol "pcie2usbc-eagle-import:TPTP38X20" (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at -3.81 0 0)
-        (effects (font (size 1.524 1.2954)) (justify right))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "pcie2usbc:TP38X20" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "TPTP38X20_1_0"
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -1.778 0.762)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -0.762)
-            (xy -2.54 0)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 0.762)
-            (xy -1.016 0)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 0)
-            (xy -1.778 -0.762)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (text "${TP_SIGNAL_NAME}" (at -3.81 -2.54 0)
-          (effects (font (size 1.524 1.2954)) (justify right))
-        )
-        (pin bidirectional line (at 0 0 180) (length 2.54)
-          (name "TP" (effects (font (size 0 0))))
-          (number "TP" (effects (font (size 0 0))))
-        )
-      )
-    )
     (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1319,7 +1261,7 @@
     (property "Datasheet" "~" (at 109.22 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eade479a-1adf-4090-a5c8-f8bec00c6f7b))
+    (pin "1" (uuid 463677ba-c70d-4fe9-99a1-08fa6b81bd7f))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1355,8 +1297,8 @@
     (property "Datasheet" "" (at 74.93 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83bf450e-acf3-49eb-a704-0d4eb5db2b74))
-    (pin "2" (uuid 2c402d94-1047-460a-889a-2a1fab205bcf))
+    (pin "1" (uuid 0da3992f-c3b0-4373-88ae-0cb7a24a1593))
+    (pin "2" (uuid 14c5bc1f-f914-4e7d-80a1-1245891be132))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1395,8 +1337,8 @@
     (property "Datasheet" "" (at 64.4684 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59fea499-c76b-4770-8d9d-5ee81d168a96))
-    (pin "2" (uuid 6a54e3d7-0657-4424-b3be-480b07c2e100))
+    (pin "1" (uuid 7853797d-8e0d-432e-87ab-d2b522c7b5df))
+    (pin "2" (uuid f1ae3053-5461-4872-a4a6-9a1f674e328f))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1435,8 +1377,8 @@
     (property "Datasheet" "~" (at 74.93 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a28adf04-5dae-4dde-8155-e78fba914685))
-    (pin "2" (uuid 161641a1-60c2-4476-b96e-643271cecc29))
+    (pin "1" (uuid f2900b1a-dc50-42da-aff2-e904f7f76e61))
+    (pin "2" (uuid 0335b050-4191-4265-9c62-16e8b7602e8e))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1464,7 +1406,7 @@
     (property "Datasheet" "~" (at 95.25 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e93615c2-89c8-49ab-bac8-b483c7231d84))
+    (pin "1" (uuid 298cfcbb-d5cd-42e9-ad32-53e0a1ec5810))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1500,8 +1442,8 @@
     (property "Datasheet" "" (at 74.93 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 302de0e6-2de1-4f9f-bd4a-43faec4debce))
-    (pin "2" (uuid b0e86fc0-bdc1-4e02-af66-a100a87a55b7))
+    (pin "1" (uuid c6b7bae9-16a9-426f-bdf8-fd9da1eb4c63))
+    (pin "2" (uuid dda8072c-6331-496c-a6d2-ea726cc3d5a8))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1540,8 +1482,8 @@
     (property "Datasheet" "~" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6aabe32b-aff1-47b9-a9c1-d8e8a2b5277f))
-    (pin "2" (uuid 373c497f-38d7-4375-b3f5-b0e0df34ef9e))
+    (pin "1" (uuid 69663edd-2e39-4439-bced-48425704d14b))
+    (pin "2" (uuid 2a41b7b3-f650-4b49-b7a3-d572a22e280c))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1569,8 +1511,8 @@
     (property "Datasheet" "" (at 65.405 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56381925-7e81-433e-a5a6-0bb1709a6d0e))
-    (pin "2" (uuid 459667de-759b-4878-9525-ffd624fe9ecf))
+    (pin "1" (uuid fbe71bb1-56ca-4aef-86e4-761d1066d414))
+    (pin "2" (uuid 50aa7b64-0100-4e96-b8c1-237aed92c630))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1609,8 +1551,8 @@
     (property "Datasheet" "" (at 74.93 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3186912b-2128-4a4e-bada-7356bb862de0))
-    (pin "2" (uuid d95317f0-e052-4a95-8b7d-5821c078e2f9))
+    (pin "1" (uuid 45bb0473-2f14-49d8-9d72-c5053b862ee8))
+    (pin "2" (uuid d4087304-b802-414d-8fea-0a0b5155ad39))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1649,8 +1591,8 @@
     (property "Datasheet" "" (at 64.77 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cb9aae8b-e000-4a81-a437-4ac4fad1fd4e))
-    (pin "2" (uuid 3f6383b8-0465-4799-9542-189470a983f4))
+    (pin "1" (uuid f3a6253d-113f-41b2-8dc9-a22b485a9a5e))
+    (pin "2" (uuid a2319224-cff5-4606-a7bf-a7ff7adf4f32))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1689,8 +1631,8 @@
     (property "Datasheet" "" (at 64.4684 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fcfe2011-0658-4822-a1da-9dc0993d6d41))
-    (pin "2" (uuid 206da802-0965-4f4c-b1a2-d2ad9262f574))
+    (pin "1" (uuid d2d63b50-ddc0-4dd8-bb53-1230e482ee2b))
+    (pin "2" (uuid 59095ffc-bdec-47e1-9cba-3f79915931ed))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1729,7 +1671,7 @@
     (property "Datasheet" "" (at 260.35 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b72256cc-dbdc-47fe-bc09-768b23226ac8))
+    (pin "1" (uuid 01cc246c-ec24-4762-83b5-3118f8555500))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1765,7 +1707,7 @@
     (property "Datasheet" "" (at 107.95 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05a4bc3f-e869-4fcb-ac55-65fd9c924fb2))
+    (pin "1" (uuid 60cf824a-98a6-4e5f-9878-9428e68b525b))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1804,8 +1746,8 @@
     (property "Datasheet" "" (at 64.77 135.255 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9029e66-983a-4caa-88ae-693c2b24a4dc))
-    (pin "2" (uuid 358ff8b5-4214-45ef-9c70-59bf9d693139))
+    (pin "1" (uuid 336cbd5c-98b9-4dc4-8d9f-82c07eeef4f3))
+    (pin "2" (uuid 89631bcf-73cb-41cf-b51f-caa25019de73))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1844,8 +1786,8 @@
     (property "Datasheet" "" (at 61.595 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b541320-044b-4261-ab06-eebbc1726f0e))
-    (pin "2" (uuid aefcacd8-6b6b-4e54-95b4-8ff5bd3a5fad))
+    (pin "1" (uuid 11eb148c-7869-48e1-8300-520ee4753842))
+    (pin "2" (uuid b1b4de7a-eec7-49ba-8579-ca6cba46ada6))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1884,7 +1826,7 @@
     (property "Datasheet" "" (at 113.03 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ef4df29-a3bd-4766-9a7d-18c867cdef5d))
+    (pin "1" (uuid 4b401cdc-acef-4778-bacc-23c5f61fc030))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1920,7 +1862,7 @@
     (property "Datasheet" "" (at 24.13 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ee47db6-1e62-4cda-8a13-0d80651f9069))
+    (pin "1" (uuid 34bd69fc-f742-4f6f-8a64-2e7e66125cad))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1956,8 +1898,8 @@
     (property "Datasheet" "" (at 113.03 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4b7e372-a90a-4d7c-806e-b31946a01258))
-    (pin "2" (uuid 7a3a09bc-ceee-4e2c-845e-66ee57c7f2af))
+    (pin "1" (uuid ae5761de-723b-4e1e-92c0-b2849206125a))
+    (pin "2" (uuid caaf2824-cf34-4e4d-ab97-2918a909dd49))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -1996,8 +1938,8 @@
     (property "Datasheet" "" (at 74.93 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 97f36b7c-8917-4970-b67e-bd5dc9e3b348))
-    (pin "2" (uuid 35363fdc-11af-47f3-8a1a-93580edab094))
+    (pin "1" (uuid 83295a71-9dca-40ef-b005-2e3e1cae7767))
+    (pin "2" (uuid 9396254a-7ace-4bf3-ac4a-a655236655d1))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2036,8 +1978,8 @@
     (property "Datasheet" "" (at 64.77 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae4977ae-099c-4b98-92b4-2ecaed535af0))
-    (pin "2" (uuid d2830f2b-48dc-41c5-b716-d723274dbdad))
+    (pin "1" (uuid 1e8743fa-231c-4c2f-a894-d2385f99fa34))
+    (pin "2" (uuid 59adb015-0952-45e3-a458-dbb489f43eb9))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2061,6 +2003,34 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 207.01 62.23 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 81d6ac25-e769-4a9d-a0aa-504a1a34e693)
+    (property "Reference" "TP5" (at 209.55 57.658 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 209.55 60.198 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro-Minature" (at 212.09 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 212.09 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4bb097f6-f2fe-43f4-a476-e1b95a16b847))
+    (instances
+      (project "m-pcie2usbc"
+        (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
+          (reference "TP5") (unit 1)
+        )
+        (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/353549ee-224f-4768-b417-4f602901b20c"
+          (reference "TP10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 31.75 165.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9037953c-e2b2-4c2f-aeb7-ca6f42258eea)
@@ -2076,7 +2046,7 @@
     (property "Datasheet" "" (at 31.75 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13c080c4-b350-43af-900d-de0bc7fe52cf))
+    (pin "1" (uuid 1baa8407-42c5-4d3b-8379-d578d69b03c4))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2124,8 +2094,8 @@
     (property "PN-DK" "311-1341-1-ND" (at 250.19 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24df4bd3-6ab8-4df0-92e6-a2dde06cd610))
-    (pin "2" (uuid 420b07ed-0f93-4274-bf38-9d29d93e3867))
+    (pin "1" (uuid 39db590b-b5d2-4c70-b0c0-4711e025273b))
+    (pin "2" (uuid d51e2665-8a64-4cbe-8acf-2375c425a241))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2149,48 +2119,6 @@
     )
   )
 
-  (symbol (lib_id "pcie2usbc-eagle-import:TPTP38X20") (at 207.01 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 97feb870-3b00-450a-ba4b-b12a4104d487)
-    (property "Reference" "TP5" (at 203.2 62.23 0)
-      (effects (font (size 1.524 1.2954)) (justify right) hide)
-    )
-    (property "Value" "TPTP38X20" (at 207.01 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 207.01 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 207.01 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TP_SIGNAL_NAME" "GND" (at 203.2 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (pin "TP" (uuid 199e01e1-d62c-49ff-bf73-a35c1f8db0ff))
-    (instances
-      (project "m-pcie2usbc"
-        (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
-          (reference "TP5") (unit 1)
-        )
-        (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/353549ee-224f-4768-b417-4f602901b20c"
-          (reference "TP10") (unit 1)
-        )
-      )
-      (project "pcie2usbc"
-        (path "/e1766754-b9de-4cd8-9e76-5cd3a12f2f48"
-          (reference "TP13") (unit 1)
-        )
-        (path "/e1766754-b9de-4cd8-9e76-5cd3a12f2f48/0780fae0-cf9e-47a3-8386-0708b158015b"
-          (reference "TP14") (unit 1)
-        )
-        (path "/e1766754-b9de-4cd8-9e76-5cd3a12f2f48/265201af-3e4e-4a3b-a1e2-272c609923eb"
-          (reference "TP19") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 209.55 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9021fdd-0053-411b-aa3f-328e7971b535)
@@ -2206,7 +2134,7 @@
     (property "Datasheet" "" (at 209.55 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 627a3421-7e7d-4db1-973a-419c1dfbf72a))
+    (pin "1" (uuid 7c999677-802a-4b10-9328-20e58ecc2c35))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2257,8 +2185,8 @@
     (property "PN-DK" "311-1341-1-ND" (at 260.35 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec39c804-beff-49bb-b7b9-98d9d8d2a0c1))
-    (pin "2" (uuid 3a795d5b-2fd5-41b1-9039-0fd036bc916f))
+    (pin "1" (uuid 40e0ee02-8833-4532-a468-fa05afb1f5a4))
+    (pin "2" (uuid dec555c7-0731-4ce2-8e6a-ded4fe31fb79))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2297,8 +2225,8 @@
     (property "Datasheet" "" (at 62.23 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a08beda-470f-49b6-b1d2-580553ec6a11))
-    (pin "2" (uuid efbc9e8a-556b-432e-9226-945f1fcf82ec))
+    (pin "1" (uuid 88d8ed6d-e2c9-4126-80ca-05cfca6bf1a5))
+    (pin "2" (uuid 3346d403-c547-4c24-91da-a65ee7f4b436))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2337,7 +2265,7 @@
     (property "Datasheet" "" (at 250.19 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 662a5dd3-f5c0-4a78-967c-1326322cf3aa))
+    (pin "1" (uuid 8afb3133-dffc-46d8-b424-660219626dab))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2376,8 +2304,8 @@
     (property "Datasheet" "" (at 64.77 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b278689a-b0a9-42c1-8673-a4e42e2ee365))
-    (pin "2" (uuid 1b5abb24-79ba-4b26-b9cc-fec088cae066))
+    (pin "1" (uuid e3c96b7a-991a-41cb-becd-5b11776915d8))
+    (pin "2" (uuid b7d99517-f9dd-4b27-8d83-da004a10e5ae))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2416,7 +2344,7 @@
     (property "Datasheet" "" (at 74.93 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5acbca56-1421-4264-927f-78bde135b0d5))
+    (pin "1" (uuid 68a9c5a8-dab9-47e3-91fd-6ddcfef105bf))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2452,7 +2380,7 @@
     (property "Datasheet" "~" (at 139.7 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09185ee5-7cd2-4f64-b2c5-a3addeab0326))
+    (pin "1" (uuid f7afebc5-6cfd-457f-bdad-fcda1f720dc9))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2488,8 +2416,8 @@
     (property "Datasheet" "" (at 64.77 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ccd1414-c712-4139-8338-df2625e8e37f))
-    (pin "2" (uuid c760b253-5708-4ebf-bfdb-de98bdd5358f))
+    (pin "1" (uuid b25344b8-ba8d-46f2-89e2-b5138a966f3d))
+    (pin "2" (uuid fa4b2621-e3bb-4f0a-8bd7-3af8980015d2))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2528,7 +2456,7 @@
     (property "Datasheet" "~" (at 124.46 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a1d0ec2-4b34-4ac8-888b-400dda386ae0))
+    (pin "1" (uuid e6071181-0c85-4738-ae8c-53993f75acde))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2564,31 +2492,31 @@
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 35.56 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid f5d1c094-c006-45ad-97ac-511c3f5456d6))
-    (pin "A10" (uuid 605ad0d3-5967-483d-b22b-7b0387d01d15))
-    (pin "A11" (uuid 84de9645-a021-4071-b0d4-5403d1313505))
-    (pin "A12" (uuid 56f331f8-8c7a-46e8-83c6-cb357fe97208))
-    (pin "A2" (uuid 7bcba20d-f634-4a5f-9f30-7df9185291bf))
-    (pin "A3" (uuid fa9447fb-38ef-4bd8-afe9-3b37c38b9395))
-    (pin "A4" (uuid 92dc445b-f5c5-4a8c-964f-5d49b16e7d67))
-    (pin "A5" (uuid 712ed51f-8139-4369-ae90-2962f1b47404))
-    (pin "A6" (uuid aef2dabb-4258-4464-b369-f6a10851f200))
-    (pin "A7" (uuid b0574d31-9f17-4b29-8ca8-daab1ce98c98))
-    (pin "A8" (uuid 2436b1cd-c640-4c5f-90c5-d8f1d7b094ba))
-    (pin "A9" (uuid 2bd0f09b-8be1-4026-904d-1cce66d51985))
-    (pin "B1" (uuid 91306398-ad4e-47f9-ab86-615e69c83af6))
-    (pin "B10" (uuid b4c53539-ec6d-40c3-bd15-696874d0e267))
-    (pin "B11" (uuid aab17e59-e835-4110-9a47-ed6801580fef))
-    (pin "B12" (uuid 6c5b5c5d-df98-426c-a0d3-0287e421f6c8))
-    (pin "B2" (uuid eb136653-91bb-40da-8d14-24c4df80d2b9))
-    (pin "B3" (uuid a7dcf35b-16a3-4692-a4ea-2bce10c36d27))
-    (pin "B4" (uuid 4822d104-1b27-463a-8c85-2efb995e9033))
-    (pin "B5" (uuid 6ea8b31c-114b-4572-a820-4d5d97185870))
-    (pin "B6" (uuid a80f93e7-8345-4019-b793-a51cf62282df))
-    (pin "B7" (uuid 8ccbf157-60f4-463f-8c46-526311fbfb5c))
-    (pin "B8" (uuid ea5da960-511c-41cf-ac94-4cc905a6b16b))
-    (pin "B9" (uuid d7cbc167-a22a-4c46-bfab-9ab27eec71fb))
-    (pin "S1" (uuid 6fabca40-296b-469f-b7b3-d3163c6d987b))
+    (pin "A1" (uuid be057515-939e-45e3-96f5-d672a32f4f05))
+    (pin "A10" (uuid 1aaaa2d2-dbc1-4b28-b489-85a98bce74fe))
+    (pin "A11" (uuid 98564cb8-07cd-4330-ae8d-63ab7b0f8101))
+    (pin "A12" (uuid 042d3388-937e-439b-98d8-e2d16df5d4d4))
+    (pin "A2" (uuid 2ef89478-a446-4a2f-8d4d-4b512a2cb1a4))
+    (pin "A3" (uuid 4c55c547-131e-42df-aa19-b096de21eddd))
+    (pin "A4" (uuid 2d3ef39e-3cbf-4930-8a1f-68ec4209405a))
+    (pin "A5" (uuid 005fafa1-719e-4537-917a-8ac538b76ece))
+    (pin "A6" (uuid 62be62af-5b9b-488d-85bb-8ef914203416))
+    (pin "A7" (uuid 1dd03c52-a6fa-482f-b6fe-f33e6dfe50bc))
+    (pin "A8" (uuid 40951519-02fb-4a0e-aae8-e9b948c6accd))
+    (pin "A9" (uuid 45d7f6bb-55e6-4b15-affa-506cbe8557e9))
+    (pin "B1" (uuid df74a3ba-555e-4967-865d-2f3f6dad6fb9))
+    (pin "B10" (uuid 180c5d76-11eb-4600-bcd0-b49c7391c4e4))
+    (pin "B11" (uuid 252a0f6a-661b-4d4e-b6f3-087b4b6ad4fa))
+    (pin "B12" (uuid e37bfa84-e1b8-4616-95b0-ef6c6c4e1567))
+    (pin "B2" (uuid 38c7f937-5d74-4b29-8d1c-3ea311cc1a4a))
+    (pin "B3" (uuid 8f01a3c1-e677-4181-87e6-c05608545aa2))
+    (pin "B4" (uuid 450700e8-d775-417d-a872-cdaf738ca597))
+    (pin "B5" (uuid dec3d85b-fd7e-482f-bf81-3ecdb12f09da))
+    (pin "B6" (uuid c36addff-6da4-4c8d-be23-9cdeba1f6ef6))
+    (pin "B7" (uuid 415a4cfc-5500-4536-a34b-ab16b5750540))
+    (pin "B8" (uuid a87bc23b-80f6-4c3c-a01e-4c0eed744d48))
+    (pin "B9" (uuid 8795b70d-e0e9-4a0f-a0dc-a56b456d4e68))
+    (pin "S1" (uuid 58740c94-7ad4-402f-927e-cbe524b782f7))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7"
@@ -2631,8 +2559,8 @@
     (property "PN-DK" "311-1341-1-ND" (at 28.575 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9a8e8be-630b-4933-b252-2ce010762c29))
-    (pin "2" (uuid d4e76c91-8505-46a2-bce9-3f392ca9f84c))
+    (pin "1" (uuid dfb94bce-9187-4be2-b38e-577fdcf052b1))
+    (pin "2" (uuid 0c22ad68-c440-4db2-b039-e51323f01943))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2683,8 +2611,8 @@
     (property "PN-DK" "311-100KHRCT-ND" (at 18.415 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b497c74-98ea-492b-9e92-2478852cee69))
-    (pin "2" (uuid b63d9d04-6aaf-4186-8ea2-d723f81c5d2e))
+    (pin "1" (uuid 752558bb-f5b9-4f16-836d-074c04b9b77d))
+    (pin "2" (uuid f3816c2a-7e88-4e82-bd0a-e061360d2199))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2723,8 +2651,8 @@
     (property "Datasheet" "" (at 61.595 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ddab0b9-4a7c-47aa-8e8d-7e8128ad360d))
-    (pin "2" (uuid e3be85a6-0429-4e3c-b686-c0aca607b7ee))
+    (pin "1" (uuid 0a74d1fe-d02a-4e97-b49d-39f7febc3910))
+    (pin "2" (uuid 6ef7c6b1-827d-4d68-af65-1e4bdefda899))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
@@ -2763,8 +2691,8 @@
     (property "Datasheet" "" (at 74.93 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f643741-9252-432f-8824-7d28383a9c6e))
-    (pin "2" (uuid 7a102d6c-a7b9-4052-b2c6-3d41d93740ac))
+    (pin "1" (uuid 142945ff-5722-4e6a-89d9-99980777bb68))
+    (pin "2" (uuid 6de2cb0e-b69e-4044-ae85-b6b32dc03ffe))
     (instances
       (project "m-pcie2usbc"
         (path "/c6966a4c-26ab-49f3-b12b-daf57b153bc7/65aeb514-2985-4b7f-9956-bb6e254cf14f"
