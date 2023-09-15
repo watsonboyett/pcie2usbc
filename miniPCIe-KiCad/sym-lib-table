@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pcie2usbc-eagle-import")(type "KiCad")(uri "C:/git/temp/pcie2usbc4x/KiCad/pcie2usbc-eagle-import.kicad_sym")(options "")(descr ""))
+)
